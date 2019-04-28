@@ -1,0 +1,9 @@
+li a{
+  color:white;
+}
+li a:hover{
+  color:#edf4d6;
+}
+li a.disconnect:hover{
+  color:#f4ae97;
+}

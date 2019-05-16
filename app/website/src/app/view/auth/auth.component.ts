@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AuthComponent implements OnInit {
 
+  message = {
+    content : 'Mot de passe incorrect!',
+    type : 'error'
+  };
+
   constructor() { }
 
   ngOnInit() {

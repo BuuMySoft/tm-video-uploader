@@ -10,7 +10,8 @@ import {Video} from '../../models/video';
 export class PurchaseComponent implements OnInit {
   errors: MessageTM[];
   videos: Video[];
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

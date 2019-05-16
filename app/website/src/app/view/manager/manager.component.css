@@ -1,0 +1,86 @@
+table {
+  border-collapse: collapse;
+}
+/* ------------Video list header------------ */
+
+table, tbody th, tbody td {
+  border: 1px solid #c2c7d6;
+}
+thead{
+  text-align: center;
+  height: 40px;
+  display: inline-table;
+  width: 100%;
+}
+thead tr td{
+  background-color: aquamarine;
+  width: 50%;
+}
+
+/* ------------Video list content------------ */
+
+tbody tr td{
+  height: 100%;
+}
+tbody tr td ul{
+  margin: 10px;
+}
+ul{
+  padding: 0px;
+  width: 26vw;
+}
+.list-group-item div{
+  height: 80px;
+}
+.list-group-item div{
+
+}
+.list-group-item hr{
+  margin: 0px;
+}
+.list-group-item{
+  margin: 5px;
+}
+.list-group-item:hover{
+  background-color: #edf4d6;
+}
+li.list-group-item:active{
+  background-color: #008cba;
+}
+
+/* ------------Scroll barre in the video list------------ */
+tbody {
+  display: block;
+}
+
+tbody {
+  height: 500px;       /* Just for the demo          */
+  overflow-y: auto;    /* Trigger vertical scroll    */
+  overflow-x: hidden;  /* Hide the horizontal scroll */
+}
+
+.list-message{
+  margin: auto;
+}
+.alert{
+  font-size: 10px;
+}
+.alert-heading{
+  font-size: 13px;
+}
+hr{
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.row.line-info{
+  height: 13px !important;
+}
+.head-line-info, .body-line-info{
+  height: 100% !important;
+  font-size: 8px;
+
+}
+.group-info{
+  display: grid;
+  padding-top:10px;
+}
